@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home"
+            android:iconTint="@color/colorAccent"/>
+        <item
+            android:id="@+id/nav_modern"
+            android:title="@string/menu_modern_resto" />
+        <item
+            android:id="@+id/nav_traditional"
+            android:title="@string/menu_traditional_resto" />
+        <item
+            android:id="@+id/logout"
+            android:onClick="logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/colorAccent"
+            android:title="@string/logout"/>
+    </group>
+</menu>
